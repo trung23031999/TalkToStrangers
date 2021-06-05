@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Talk With Stranger</title>
+    </head>
+<script src="jquery.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<link rel="stylesheet" type="text/css" href="layout.css"/>
+<script src="xuly.js"></script>
+
+    <body>
+        <div id="wrapper">
+
+            <div id="loginForm">
+                <h3>What's your name?</h3>
+                <input type="text" id="txtUsername"/>
+                <input type="button" value="Register" id="btnRegister"/>
+            </div>
+            <div id="listForm">
+                <div id="left">
+                    <div id="userTitle">Users Online</div>
+                    <div id="listUser"></div>
+                </div>
+
+                <div id="right">
+                    <div id="sayHi">
+                        Hello <span id="currentUser"></span>
+                        <input type="button" id="btnLogout" value="Logout">
+                    </div>
+                    <input type="text" id="txtRoom"/>
+                    <input type="button" id="btnFindRoom" value="Find room"/>
+                    <input type="button" id="btnCreateRoom" value="Create room"/>
+                    <div id="roomTitle">List room</div>
+                    <div id="listRoom"></div>
+                </div>
+            </div>
+
+            <div id="chatForm">
+                <input type="button" id="btnLeaveRoom" value="Leave room"/>
+                <!-- <div id="listMessage"></div> -->
+
+                <!-- <div id="thongbao"></div> -->
+
+                <input type="text" id="txtMessage" />
+                <input type="button" id="btnSendMessage" value="Send"/>
+            </div>
+
+        </div>
+    </body>
+</html>

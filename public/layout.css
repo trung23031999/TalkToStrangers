@@ -1,0 +1,219 @@
+/* body{
+    background-color: #bff5eb;
+} */
+#wrapper{
+  /* The image used */
+  background-image: url("background1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+                    /* LOGIN FORM */
+
+#loginForm {
+    border: solid 5pt rgb(60, 248, 239);
+    width: fit-content;
+    background-color: white;
+    /* display: -webkit-box; */
+    /* display: -webkit-flex; */
+    display: -moz-box;
+    /* display: -ms-flexbox; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    /* padding: 15px; */
+}                    
+h3 { 
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+#btnRegister{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+#txtUsername{
+    background-color: transparent;
+    border:solid 1px black;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+                    /* LIST FORM */
+
+#left{
+    padding-top: 47px;
+    width: 30%; 
+    height: 100%;
+    float:left; 
+}
+#userTitle{
+    padding: 5px; 
+    text-align:center; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#listUser{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px; 
+    text-align: center;
+    overflow: auto;
+    background-color: white;
+}
+
+
+
+#right{
+    width: 70%; 
+    height: 100%;
+    float: left;
+}
+#sayHi{
+    text-align: right;
+}
+#btnLogout {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+#btnLogout:hover {
+    background-color: red;
+    color: white;
+}
+#txtRoom {
+    width:75%;
+    height: 25px;
+}
+#btnFindRoom {
+    width: 10%;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    transition-duration: 0.4s;
+}
+#btnFindRoom:hover {
+    background-color: #555555;
+    color: white;
+}
+#btnCreateRoom {
+    width: 10%;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    transition-duration: 0.4s;
+}
+#btnCreateRoom:hover {
+    background-color: #555555;
+    color: white;
+}
+#roomTitle {
+    padding: 5px; 
+    text-align:center; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.joinroom{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: 2px solid rgb(76, 209, 250);
+    border-style: outset;
+    width: 100%;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: black;
+    background-color: white;
+}
+.joinroom:hover{
+    background-color: rgb(76, 209, 250);
+    color: white;
+}
+#listRoom{
+    overflow: auto;
+}
+
+                    /* CHAT FORM */
+
+.listMessage{
+    width: 100%;
+    height: 500px; 
+    background-color: snow;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+#txtMessage{
+    width: 70%;
+    height: 25px;
+    background-color:white; 
+    border: solid 1px black;
+    border-radius: 5px;
+}
+#btnSendMessage{
+    width: 10%;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    transition-duration: 0.4s;
+}
+#btnSendMessage:hover {
+    background-color: #555555;
+    color: white;
+}
+#btnLeaveRoom{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+#btnLeaveRoom:hover {
+    background-color: red;
+    color: white;
+}
+.ms-boardcast{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.ms-single{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    border-color: purple;
+    background-color:rgb(255, 92, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.nd{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
